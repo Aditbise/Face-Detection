@@ -1,10 +1,9 @@
 import cv2
 import numpy as np
-from sklearn.feature_extraction import img_to_graph
 
 cap =cv2.VideoCapture(0)
-haarcascade_eye="C:/Users/ADITYA BISHT/Desktop/Aditya Bisht/PYTHON/model/haarcascade_eye.xml"
-haarcascade_frontalface_default="C:/Users/ADITYA BISHT/Desktop/Aditya Bisht/PYTHON/model/haarcascade_frontalface_default.xml"
+haarcascade_eye="model/haarcascade_eye.xml"
+haarcascade_frontalface_default="model/haarcascade_frontalface_default.xml"
 
 face_cascade =cv2.CascadeClassifier(haarcascade_frontalface_default)
 eye_cascade =cv2.CascadeClassifier(haarcascade_eye)
