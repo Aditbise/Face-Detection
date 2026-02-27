@@ -74,6 +74,15 @@ For scripts that use the webcam (`face3.py`, `face4.py`, `face5.py`, `face8.py`)
 - Template matching
 - Haar Cascade face and eye detection
 
+## Resume Highlight
+
+**Face Detection | Python, OpenCV, NumPy**  
+- Developed a face detection system using **Python** and **OpenCV**, applying classical computer vision (e.g., **Haar Cascade-based detection**) to identify and localize faces.  
+- Built an end-to-end pipeline with **NumPy**-based frame processing: image/video input handling, grayscale conversion, and real-time **bounding box** rendering.  
+- Tested across varying lighting conditions and camera angles using **webcam/video stream** input to validate consistent detection results.
+
+**Tech Stack:** Python, OpenCV, NumPy  
+
 ## License
 
 This project is open source and available for educational purposes.
